@@ -1,0 +1,7 @@
+﻿  Source.cpp
+F:\MazeGame\MazeGame\Source.cpp(107,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+F:\MazeGame\MazeGame\Source.cpp(452,56): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+F:\MazeGame\MazeGame\Source.cpp(464,55): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+F:\MazeGame\MazeGame\Source.cpp(486,55): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+F:\MazeGame\MazeGame\Source.cpp(500,55): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+  MazeGame.vcxproj -> F:\MazeGame\MazeGame\x64\Debug\MazeGame.exe
