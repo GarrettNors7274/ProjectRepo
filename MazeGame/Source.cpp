@@ -91,6 +91,9 @@ bool MovePlayer(int matrix[][20], int rows, int cols, char input)
     default: return false;
     }
 
+    if (nx < 0 || nx >= rows || ny < 0 || ny >= cols) // added bounds check before indexing
+        return false;
+
     if (matrix[nx][ny] == 1 || matrix[nx][ny] == 2)
         return false;
 
@@ -247,6 +250,7 @@ void OutputWinMessage(int winner)
     case 2:
 	    cout << "Player 2 (O) wins!\n";
         system("pause");
+        break; //added break
     case 3:
         cout << "It's a draw!\n";
 		system("pause");
